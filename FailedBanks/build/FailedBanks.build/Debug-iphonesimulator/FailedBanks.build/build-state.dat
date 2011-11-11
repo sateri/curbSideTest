@@ -1,0 +1,554 @@
+TFailedBanks
+v7
+r0
+t335257235.175024
+cCheck dependencies
+cProcessInfoPlistFile /Users/yogeshp/Documents/FailedBanks/build/Debug-iphonesimulator/FailedBanks.app/Info.plist FailedBanks-Info.plist
+cCompileXIB /Users/yogeshp/Documents/FailedBanks/MainWindow.xib
+cCpResource build/Debug-iphonesimulator/FailedBanks.app/banklist.sqlite3 banklist.sqlite3
+cCompileXIB /Users/yogeshp/Documents/FailedBanks/Classes/FailedBanksDetailViewController.xib
+cCpResource build/Debug-iphonesimulator/FailedBanks.app/testDB testDB
+cCpResource build/Debug-iphonesimulator/FailedBanks.app/dbtest.sqlite dbtest.sqlite
+cCpResource build/Debug-iphonesimulator/FailedBanks.app/dbtest_20.sqlite3 dbtest_20.sqlite3
+cCpResource build/Debug-iphonesimulator/FailedBanks.app/demoDB.sqlite demoDB.sqlite
+cCpResource build/Debug-iphonesimulator/FailedBanks.app/demoDB.sqlite3 demoDB.sqlite3
+cCpResource build/Debug-iphonesimulator/FailedBanks.app/new.sqlite new.sqlite
+cProcessPCH /var/folders/-L/-LmRBdszGU8UQDCRXGQcVU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/FailedBanks_Prefix-bfqemhpadioboacjebahwlrytlaz/FailedBanks_Prefix.pch.gch FailedBanks_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FailedBanks.build/Debug-iphonesimulator/FailedBanks.build/Objects-normal/i386/main.o /Users/yogeshp/Documents/FailedBanks/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FailedBanks.build/Debug-iphonesimulator/FailedBanks.build/Objects-normal/i386/FailedBanksAppDelegate.o /Users/yogeshp/Documents/FailedBanks/Classes/FailedBanksAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FailedBanks.build/Debug-iphonesimulator/FailedBanks.build/Objects-normal/i386/FailedBankInfo.o /Users/yogeshp/Documents/FailedBanks/Classes/FailedBankInfo.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FailedBanks.build/Debug-iphonesimulator/FailedBanks.build/Objects-normal/i386/FailedBankDatabase.o /Users/yogeshp/Documents/FailedBanks/Classes/FailedBankDatabase.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FailedBanks.build/Debug-iphonesimulator/FailedBanks.build/Objects-normal/i386/FailedBanksListViewController.o /Users/yogeshp/Documents/FailedBanks/Classes/FailedBanksListViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/yogeshp/Documents/FailedBanks/build/Debug-iphonesimulator/FailedBanks.app/FailedBanks normal i386
+cGenerateDSYMFile /Users/yogeshp/Documents/FailedBanks/build/Debug-iphonesimulator/FailedBanks.app.dSYM /Users/yogeshp/Documents/FailedBanks/build/Debug-iphonesimulator/FailedBanks.app/FailedBanks
+cTouch /Users/yogeshp/Documents/FailedBanks/build/Debug-iphonesimulator/FailedBanks.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
+c000000004CC128950000000000000110
+t1287727253
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC12246000000000029B310
+t1287725638
+s2732816
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC1226D000000000029D5D0
+t1287725677
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC1225F0000000000001466
+t1287725663
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC1281F0000000000000AA1
+t1287727135
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC12883000000000074D7B0
+t1287727235
+s7657392
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/lib/libsqlite3.dylib
+c000000004CC109D90000000000092C20
+t1287719385
+s601120
+
+N/Users/yogeshp/Documents/FailedBanks/Classes/FailedBankDatabase.h
+c000000004E4AB84A000000000000017D
+t1313519690
+s381
+i<Foundation/Foundation.h>
+i"/usr/include/sqlite3.h"
+
+N/Users/yogeshp/Documents/FailedBanks/Classes/FailedBankDatabase.m
+c000000004E4ACAAC00000000000006F0
+t1313524396
+s1776
+i"FailedBankDatabase.h"
+i"FailedBankInfo.h"
+
+N/Users/yogeshp/Documents/FailedBanks/Classes/FailedBankDetails.h
+c000000004E399DB50000000000000373
+t1312398773
+s883
+i<Foundation/Foundation.h>
+
+N/Users/yogeshp/Documents/FailedBanks/Classes/FailedBankDetails.m
+c000000004E3994EB0000000000000423
+t1312396523
+s1059
+i"FailedBankDetails.h"
+
+N/Users/yogeshp/Documents/FailedBanks/Classes/FailedBankInfo.h
+c000000004E4ABFF500000000000001B6
+t1313521653
+s438
+i<Foundation/Foundation.h>
+
+N/Users/yogeshp/Documents/FailedBanks/Classes/FailedBankInfo.m
+c000000004E4ABE8D00000000000001D6
+t1313521293
+s470
+i"FailedBankInfo.h"
+
+N/Users/yogeshp/Documents/FailedBanks/Classes/FailedBanksAppDelegate.h
+c000000004E397E2600000000000001C3
+t1312390694
+s451
+i<UIKit/UIKit.h>
+
+N/Users/yogeshp/Documents/FailedBanks/Classes/FailedBanksAppDelegate.m
+c000000004E4ABF330000000000000B21
+t1313521459
+s2849
+i"FailedBanksAppDelegate.h"
+i"FailedBankInfo.h"
+i"FailedBankDatabase.h"
+
+N/Users/yogeshp/Documents/FailedBanks/Classes/FailedBanksDetailViewController.h
+c000000004E39A333000000000000033D
+t1312400179
+s829
+i<UIKit/UIKit.h>
+
+N/Users/yogeshp/Documents/FailedBanks/Classes/FailedBanksDetailViewController.m
+c000000004E39A3300000000000000A3F
+t1312400176
+s2623
+i"FailedBanksDetailViewController.h"
+i"FailedBankDatabase.h"
+i"FailedBankDetails.h"
+
+N/Users/yogeshp/Documents/FailedBanks/Classes/FailedBanksDetailViewController.xib
+c000000004E39A5BB0000000000008BF7
+t1312400827
+s35831
+
+N/Users/yogeshp/Documents/FailedBanks/Classes/FailedBanksListViewController.h
+c000000004E4AB7B0000000000000019B
+t1313519536
+s411
+i<UIKit/UIKit.h>
+
+N/Users/yogeshp/Documents/FailedBanks/Classes/FailedBanksListViewController.m
+c000000004E4B6710000000000000156F
+t1313564432
+s5487
+i"FailedBanksListViewController.h"
+i"FailedBankInfo.h"
+i"FailedBankDatabase.h"
+
+N/Users/yogeshp/Documents/FailedBanks/FailedBanks_Prefix.pch
+c000000004E3965F900000000000000BF
+t1312384505
+s191
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/yogeshp/Documents/FailedBanks/MainWindow.xib
+c000000004E3981E200000000000061C2
+t1312391650
+s25026
+
+N/Users/yogeshp/Documents/FailedBanks/banklist.sqlite3
+c000000004BBA441E0000000000006000
+t1270498334
+s24576
+
+N/Users/yogeshp/Documents/FailedBanks/build/Debug-iphonesimulator/FailedBanks.app
+t1313564435
+s476
+
+N/Users/yogeshp/Documents/FailedBanks/build/Debug-iphonesimulator/FailedBanks.app.dSYM
+t1313564435
+s102
+
+N/Users/yogeshp/Documents/FailedBanks/build/Debug-iphonesimulator/FailedBanks.app/FailedBanks
+t1313564435
+s26120
+
+N/Users/yogeshp/Documents/FailedBanks/build/Debug-iphonesimulator/FailedBanks.app/FailedBanksDetailViewController.nib
+t1313564354
+s2757
+
+N/Users/yogeshp/Documents/FailedBanks/build/Debug-iphonesimulator/FailedBanks.app/Info.plist
+t1313564353
+s607
+
+N/Users/yogeshp/Documents/FailedBanks/build/Debug-iphonesimulator/FailedBanks.app/MainWindow.nib
+t1313564353
+s1546
+
+N/Users/yogeshp/Documents/FailedBanks/build/Debug-iphonesimulator/FailedBanks.app/PkgInfo
+t1313564353
+s8
+
+N/Users/yogeshp/Documents/FailedBanks/build/Debug-iphonesimulator/FailedBanks.app/banklist.sqlite3
+t1313564353
+s24576
+
+N/Users/yogeshp/Documents/FailedBanks/build/Debug-iphonesimulator/FailedBanks.app/dbtest.sqlite
+t1313564353
+s51200
+
+N/Users/yogeshp/Documents/FailedBanks/build/Debug-iphonesimulator/FailedBanks.app/dbtest_20.sqlite
+t1313492877
+s4096
+
+N/Users/yogeshp/Documents/FailedBanks/build/Debug-iphonesimulator/FailedBanks.app/dbtest_20.sqlite3
+t1313564353
+s4096
+
+N/Users/yogeshp/Documents/FailedBanks/build/Debug-iphonesimulator/FailedBanks.app/dbtest_20110816162406.sqlite
+t2
+s0
+
+N/Users/yogeshp/Documents/FailedBanks/build/Debug-iphonesimulator/FailedBanks.app/demoDB.sqlite
+t1313564353
+s4096
+
+N/Users/yogeshp/Documents/FailedBanks/build/Debug-iphonesimulator/FailedBanks.app/demoDB.sqlite3
+t1313564353
+s6144
+
+N/Users/yogeshp/Documents/FailedBanks/build/Debug-iphonesimulator/FailedBanks.app/new.sqlite
+t1313564353
+s4096
+
+N/Users/yogeshp/Documents/FailedBanks/build/Debug-iphonesimulator/FailedBanks.app/testDB
+t1313564353
+s51200
+
+N/Users/yogeshp/Documents/FailedBanks/build/FailedBanks.build/Debug-iphonesimulator/FailedBanks.build/Objects-normal/i386/FailedBankDatabase.o
+t1313564355
+s12416
+
+N/Users/yogeshp/Documents/FailedBanks/build/FailedBanks.build/Debug-iphonesimulator/FailedBanks.build/Objects-normal/i386/FailedBankDetails.o
+t1312398775
+s15896
+
+N/Users/yogeshp/Documents/FailedBanks/build/FailedBanks.build/Debug-iphonesimulator/FailedBanks.build/Objects-normal/i386/FailedBankInfo.o
+t1313564355
+s9744
+
+N/Users/yogeshp/Documents/FailedBanks/build/FailedBanks.build/Debug-iphonesimulator/FailedBanks.build/Objects-normal/i386/FailedBanks.LinkFileList
+c000000004E4B66C100000000000002C3
+t1313564353
+s707
+
+N/Users/yogeshp/Documents/FailedBanks/build/FailedBanks.build/Debug-iphonesimulator/FailedBanks.build/Objects-normal/i386/FailedBanksAppDelegate.o
+t1313564355
+s54572
+
+N/Users/yogeshp/Documents/FailedBanks/build/FailedBanks.build/Debug-iphonesimulator/FailedBanks.build/Objects-normal/i386/FailedBanksDetailViewController.o
+t1312400180
+s51040
+
+N/Users/yogeshp/Documents/FailedBanks/build/FailedBanks.build/Debug-iphonesimulator/FailedBanks.build/Objects-normal/i386/FailedBanksListViewController.o
+t1313564435
+s46832
+
+N/Users/yogeshp/Documents/FailedBanks/build/FailedBanks.build/Debug-iphonesimulator/FailedBanks.build/Objects-normal/i386/main.o
+t1313564355
+s6300
+
+N/Users/yogeshp/Documents/FailedBanks/dbtest.sqlite
+c000000004E4A4C9E000000000000C800
+t1313492126
+s51200
+
+N/Users/yogeshp/Documents/FailedBanks/dbtest_20.sqlite
+c000000004E4A4C4E0000000000001000
+t1313492046
+s4096
+
+N/Users/yogeshp/Documents/FailedBanks/dbtest_20.sqlite3
+c000000004E4A4C4E0000000000001000
+t1313492046
+s4096
+
+N/Users/yogeshp/Documents/FailedBanks/dbtest_20110816162406.sqlite
+c000000004E4A4C4E0000000000001000
+t1313492046
+s4096
+
+N/Users/yogeshp/Documents/FailedBanks/demoDB.sqlite
+c000000004E4AB55B0000000000001000
+t1313518939
+s4096
+
+N/Users/yogeshp/Documents/FailedBanks/demoDB.sqlite3
+c000000004E4ABDB80000000000001800
+t1313521080
+s6144
+
+N/Users/yogeshp/Documents/FailedBanks/main.m
+c000000004E3965F90000000000000166
+t1312384505
+s358
+i<UIKit/UIKit.h>
+
+N/Users/yogeshp/Documents/FailedBanks/new.sqlite
+c000000004E4AC6050000000000001000
+t1313523205
+s4096
+
+N/Users/yogeshp/Documents/FailedBanks/testDB
+c000000004E4A48A2000000000000C800
+t1313491106
+s51200
+
+N/usr/include/sqlite3.h
+c000000004C239FC5000000000003D86F
+t1277403077
+s252015
+
+N/var/folders/-L/-LmRBdszGU8UQDCRXGQcVU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/FailedBanks_Prefix-bfqemhpadioboacjebahwlrytlaz/FailedBanks_Prefix.pch.gch
+t1313564355
+s15453392
+
+NFailedBanks-Info.plist
+c000000004E3965F9000000000000038D
+t1312384505
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies335257234#335257234#0(0"0(0#1#0"8618406656#0"0#
+
+CCompileC build/FailedBanks.build/Debug-iphonesimulator/FailedBanks.build/Objects-normal/i386/FailedBankDatabase.o /Users/yogeshp/Documents/FailedBanks/Classes/FailedBankDatabase.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s335257155.622577
+e335257155.738431
+r1
+xCompileC
+xbuild/FailedBanks.build/Debug-iphonesimulator/FailedBanks.build/Objects-normal/i386/FailedBankDatabase.o
+x/Users/yogeshp/Documents/FailedBanks/Classes/FailedBankDatabase.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@73"Compile /Users/yogeshp/Documents/FailedBanks/Classes/FailedBankDatabase.m335257155#335257155#0(0"0(0#0#65"/Users/yogeshp/Documents/FailedBanks/Classes/FailedBankDatabase.m8603654144#2008"    cd /Users/yogeshp/Documents/FailedBanks    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/yogeshp/Documents/FailedBanks/build/FailedBanks.build/Debug-iphonesimulator/FailedBanks.build/FailedBanks-generated-files.hmap -I/Users/yogeshp/Documents/FailedBanks/build/FailedBanks.build/Debug-iphonesimulator/FailedBanks.build/FailedBanks-own-target-headers.hmap -I/Users/yogeshp/Documents/FailedBanks/build/FailedBanks.build/Debug-iphonesimulator/FailedBanks.build/FailedBanks-all-target-headers.hmap -iquote /Users/yogeshp/Documents/FailedBanks/build/FailedBanks.build/Debug-iphonesimulator/FailedBanks.build/FailedBanks-project-headers.hmap -F/Users/yogeshp/Documents/FailedBanks/build/Debug-iphonesimulator -I/Users/yogeshp/Documents/FailedBanks/build/Debug-iphonesimulator/include -I/Users/yogeshp/Documents/FailedBanks/build/FailedBanks.build/Debug-iphonesimulator/FailedBanks.build/DerivedSources/i386 -I/Users/yogeshp/Documents/FailedBanks/build/FailedBanks.build/Debug-iphonesimulator/FailedBanks.build/DerivedSources -include /var/folders/-L/-LmRBdszGU8UQDCRXGQcVU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/FailedBanks_Prefix-bfqemhpadioboacjebahwlrytlaz/FailedBanks_Prefix.pch -c /Users/yogeshp/Documents/FailedBanks/Classes/FailedBankDatabase.m -o /Users/yogeshp/Documents/FailedBanks/build/FailedBanks.build/Debug-iphonesimulator/FailedBanks.build/Objects-normal/i386/FailedBankDatabase.o0#
+
+CCompileC build/FailedBanks.build/Debug-iphonesimulator/FailedBanks.build/Objects-normal/i386/FailedBankDetails.o /Users/yogeshp/Documents/FailedBanks/Classes/FailedBankDetails.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s334091575.787113
+e334091575.935051
+r1
+xCompileC
+xbuild/FailedBanks.build/Debug-iphonesimulator/FailedBanks.build/Objects-normal/i386/FailedBankDetails.o
+x/Users/yogeshp/Documents/FailedBanks/Classes/FailedBankDetails.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /Users/yogeshp/Documents/FailedBanks/Classes/FailedBankDetails.m334091575#334091575#0(0"0(0#0#64"/Users/yogeshp/Documents/FailedBanks/Classes/FailedBankDetails.m8616434816#2006"    cd /Users/yogeshp/Documents/FailedBanks    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/yogeshp/Documents/FailedBanks/build/FailedBanks.build/Debug-iphonesimulator/FailedBanks.build/FailedBanks-generated-files.hmap -I/Users/yogeshp/Documents/FailedBanks/build/FailedBanks.build/Debug-iphonesimulator/FailedBanks.build/FailedBanks-own-target-headers.hmap -I/Users/yogeshp/Documents/FailedBanks/build/FailedBanks.build/Debug-iphonesimulator/FailedBanks.build/FailedBanks-all-target-headers.hmap -iquote /Users/yogeshp/Documents/FailedBanks/build/FailedBanks.build/Debug-iphonesimulator/FailedBanks.build/FailedBanks-project-headers.hmap -F/Users/yogeshp/Documents/FailedBanks/build/Debug-iphonesimulator -I/Users/yogeshp/Documents/FailedBanks/build/Debug-iphonesimulator/include -I/Users/yogeshp/Documents/FailedBanks/build/FailedBanks.build/Debug-iphonesimulator/FailedBanks.build/DerivedSources/i386 -I/Users/yogeshp/Documents/FailedBanks/build/FailedBanks.build/Debug-iphonesimulator/FailedBanks.build/DerivedSources -include /var/folders/-L/-LmRBdszGU8UQDCRXGQcVU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/FailedBanks_Prefix-bfqemhpadioboacjebahwlrytlaz/FailedBanks_Prefix.pch -c /Users/yogeshp/Documents/FailedBanks/Classes/FailedBankDetails.m -o /Users/yogeshp/Documents/FailedBanks/build/FailedBanks.build/Debug-iphonesimulator/FailedBanks.build/Objects-normal/i386/FailedBankDetails.o0#
+
+CCompileC build/FailedBanks.build/Debug-iphonesimulator/FailedBanks.build/Objects-normal/i386/FailedBankInfo.o /Users/yogeshp/Documents/FailedBanks/Classes/FailedBankInfo.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s335257155.568126
+e335257155.648404
+r1
+xCompileC
+xbuild/FailedBanks.build/Debug-iphonesimulator/FailedBanks.build/Objects-normal/i386/FailedBankInfo.o
+x/Users/yogeshp/Documents/FailedBanks/Classes/FailedBankInfo.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /Users/yogeshp/Documents/FailedBanks/Classes/FailedBankInfo.m335257155#335257155#0(0"0(0#0#61"/Users/yogeshp/Documents/FailedBanks/Classes/FailedBankInfo.m8620501664#2000"    cd /Users/yogeshp/Documents/FailedBanks    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/yogeshp/Documents/FailedBanks/build/FailedBanks.build/Debug-iphonesimulator/FailedBanks.build/FailedBanks-generated-files.hmap -I/Users/yogeshp/Documents/FailedBanks/build/FailedBanks.build/Debug-iphonesimulator/FailedBanks.build/FailedBanks-own-target-headers.hmap -I/Users/yogeshp/Documents/FailedBanks/build/FailedBanks.build/Debug-iphonesimulator/FailedBanks.build/FailedBanks-all-target-headers.hmap -iquote /Users/yogeshp/Documents/FailedBanks/build/FailedBanks.build/Debug-iphonesimulator/FailedBanks.build/FailedBanks-project-headers.hmap -F/Users/yogeshp/Documents/FailedBanks/build/Debug-iphonesimulator -I/Users/yogeshp/Documents/FailedBanks/build/Debug-iphonesimulator/include -I/Users/yogeshp/Documents/FailedBanks/build/FailedBanks.build/Debug-iphonesimulator/FailedBanks.build/DerivedSources/i386 -I/Users/yogeshp/Documents/FailedBanks/build/FailedBanks.build/Debug-iphonesimulator/FailedBanks.build/DerivedSources -include /var/folders/-L/-LmRBdszGU8UQDCRXGQcVU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/FailedBanks_Prefix-bfqemhpadioboacjebahwlrytlaz/FailedBanks_Prefix.pch -c /Users/yogeshp/Documents/FailedBanks/Classes/FailedBankInfo.m -o /Users/yogeshp/Documents/FailedBanks/build/FailedBanks.build/Debug-iphonesimulator/FailedBanks.build/Objects-normal/i386/FailedBankInfo.o0#
+
+CCompileC build/FailedBanks.build/Debug-iphonesimulator/FailedBanks.build/Objects-normal/i386/FailedBanksAppDelegate.o /Users/yogeshp/Documents/FailedBanks/Classes/FailedBanksAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s335257155.507880
+e335257155.622473
+r1
+xCompileC
+xbuild/FailedBanks.build/Debug-iphonesimulator/FailedBanks.build/Objects-normal/i386/FailedBanksAppDelegate.o
+x/Users/yogeshp/Documents/FailedBanks/Classes/FailedBanksAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/yogeshp/Documents/FailedBanks/Classes/FailedBanksAppDelegate.m335257155#335257155#0(0"0(0#0#69"/Users/yogeshp/Documents/FailedBanks/Classes/FailedBanksAppDelegate.m8622561472#2016"    cd /Users/yogeshp/Documents/FailedBanks    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/yogeshp/Documents/FailedBanks/build/FailedBanks.build/Debug-iphonesimulator/FailedBanks.build/FailedBanks-generated-files.hmap -I/Users/yogeshp/Documents/FailedBanks/build/FailedBanks.build/Debug-iphonesimulator/FailedBanks.build/FailedBanks-own-target-headers.hmap -I/Users/yogeshp/Documents/FailedBanks/build/FailedBanks.build/Debug-iphonesimulator/FailedBanks.build/FailedBanks-all-target-headers.hmap -iquote /Users/yogeshp/Documents/FailedBanks/build/FailedBanks.build/Debug-iphonesimulator/FailedBanks.build/FailedBanks-project-headers.hmap -F/Users/yogeshp/Documents/FailedBanks/build/Debug-iphonesimulator -I/Users/yogeshp/Documents/FailedBanks/build/Debug-iphonesimulator/include -I/Users/yogeshp/Documents/FailedBanks/build/FailedBanks.build/Debug-iphonesimulator/FailedBanks.build/DerivedSources/i386 -I/Users/yogeshp/Documents/FailedBanks/build/FailedBanks.build/Debug-iphonesimulator/FailedBanks.build/DerivedSources -include /var/folders/-L/-LmRBdszGU8UQDCRXGQcVU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/FailedBanks_Prefix-bfqemhpadioboacjebahwlrytlaz/FailedBanks_Prefix.pch -c /Users/yogeshp/Documents/FailedBanks/Classes/FailedBanksAppDelegate.m -o /Users/yogeshp/Documents/FailedBanks/build/FailedBanks.build/Debug-iphonesimulator/FailedBanks.build/Objects-normal/i386/FailedBanksAppDelegate.o0#
+
+CCompileC build/FailedBanks.build/Debug-iphonesimulator/FailedBanks.build/Objects-normal/i386/FailedBanksDetailViewController.o /Users/yogeshp/Documents/FailedBanks/Classes/FailedBanksDetailViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s334092979.991577
+e334092980.133497
+r1
+xCompileC
+xbuild/FailedBanks.build/Debug-iphonesimulator/FailedBanks.build/Objects-normal/i386/FailedBanksDetailViewController.o
+x/Users/yogeshp/Documents/FailedBanks/Classes/FailedBanksDetailViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@86"Compile /Users/yogeshp/Documents/FailedBanks/Classes/FailedBanksDetailViewController.m334092979#334092980#0(0"0(0#0#78"/Users/yogeshp/Documents/FailedBanks/Classes/FailedBanksDetailViewController.m8618742784#2034"    cd /Users/yogeshp/Documents/FailedBanks    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/yogeshp/Documents/FailedBanks/build/FailedBanks.build/Debug-iphonesimulator/FailedBanks.build/FailedBanks-generated-files.hmap -I/Users/yogeshp/Documents/FailedBanks/build/FailedBanks.build/Debug-iphonesimulator/FailedBanks.build/FailedBanks-own-target-headers.hmap -I/Users/yogeshp/Documents/FailedBanks/build/FailedBanks.build/Debug-iphonesimulator/FailedBanks.build/FailedBanks-all-target-headers.hmap -iquote /Users/yogeshp/Documents/FailedBanks/build/FailedBanks.build/Debug-iphonesimulator/FailedBanks.build/FailedBanks-project-headers.hmap -F/Users/yogeshp/Documents/FailedBanks/build/Debug-iphonesimulator -I/Users/yogeshp/Documents/FailedBanks/build/Debug-iphonesimulator/include -I/Users/yogeshp/Documents/FailedBanks/build/FailedBanks.build/Debug-iphonesimulator/FailedBanks.build/DerivedSources/i386 -I/Users/yogeshp/Documents/FailedBanks/build/FailedBanks.build/Debug-iphonesimulator/FailedBanks.build/DerivedSources -include /var/folders/-L/-LmRBdszGU8UQDCRXGQcVU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/FailedBanks_Prefix-bfqemhpadioboacjebahwlrytlaz/FailedBanks_Prefix.pch -c /Users/yogeshp/Documents/FailedBanks/Classes/FailedBanksDetailViewController.m -o /Users/yogeshp/Documents/FailedBanks/build/FailedBanks.build/Debug-iphonesimulator/FailedBanks.build/Objects-normal/i386/FailedBanksDetailViewController.o0#
+
+CCompileC build/FailedBanks.build/Debug-iphonesimulator/FailedBanks.build/Objects-normal/i386/FailedBanksListViewController.o /Users/yogeshp/Documents/FailedBanks/Classes/FailedBanksListViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s335257234.886758
+e335257235.037987
+r1
+xCompileC
+xbuild/FailedBanks.build/Debug-iphonesimulator/FailedBanks.build/Objects-normal/i386/FailedBanksListViewController.o
+x/Users/yogeshp/Documents/FailedBanks/Classes/FailedBanksListViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@84"Compile /Users/yogeshp/Documents/FailedBanks/Classes/FailedBanksListViewController.m335257234#335257235#0(0"0(0#0#76"/Users/yogeshp/Documents/FailedBanks/Classes/FailedBanksListViewController.m8604146880#2030"    cd /Users/yogeshp/Documents/FailedBanks    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/yogeshp/Documents/FailedBanks/build/FailedBanks.build/Debug-iphonesimulator/FailedBanks.build/FailedBanks-generated-files.hmap -I/Users/yogeshp/Documents/FailedBanks/build/FailedBanks.build/Debug-iphonesimulator/FailedBanks.build/FailedBanks-own-target-headers.hmap -I/Users/yogeshp/Documents/FailedBanks/build/FailedBanks.build/Debug-iphonesimulator/FailedBanks.build/FailedBanks-all-target-headers.hmap -iquote /Users/yogeshp/Documents/FailedBanks/build/FailedBanks.build/Debug-iphonesimulator/FailedBanks.build/FailedBanks-project-headers.hmap -F/Users/yogeshp/Documents/FailedBanks/build/Debug-iphonesimulator -I/Users/yogeshp/Documents/FailedBanks/build/Debug-iphonesimulator/include -I/Users/yogeshp/Documents/FailedBanks/build/FailedBanks.build/Debug-iphonesimulator/FailedBanks.build/DerivedSources/i386 -I/Users/yogeshp/Documents/FailedBanks/build/FailedBanks.build/Debug-iphonesimulator/FailedBanks.build/DerivedSources -include /var/folders/-L/-LmRBdszGU8UQDCRXGQcVU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/FailedBanks_Prefix-bfqemhpadioboacjebahwlrytlaz/FailedBanks_Prefix.pch -c /Users/yogeshp/Documents/FailedBanks/Classes/FailedBanksListViewController.m -o /Users/yogeshp/Documents/FailedBanks/build/FailedBanks.build/Debug-iphonesimulator/FailedBanks.build/Objects-normal/i386/FailedBanksListViewController.o0#
+
+CCompileC build/FailedBanks.build/Debug-iphonesimulator/FailedBanks.build/Objects-normal/i386/main.o /Users/yogeshp/Documents/FailedBanks/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s335257155.446039
+e335257155.568022
+r1
+xCompileC
+xbuild/FailedBanks.build/Debug-iphonesimulator/FailedBanks.build/Objects-normal/i386/main.o
+x/Users/yogeshp/Documents/FailedBanks/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@51"Compile /Users/yogeshp/Documents/FailedBanks/main.m335257155#335257155#0(0"0(0#0#43"/Users/yogeshp/Documents/FailedBanks/main.m8622052096#1972"    cd /Users/yogeshp/Documents/FailedBanks    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/yogeshp/Documents/FailedBanks/build/FailedBanks.build/Debug-iphonesimulator/FailedBanks.build/FailedBanks-generated-files.hmap -I/Users/yogeshp/Documents/FailedBanks/build/FailedBanks.build/Debug-iphonesimulator/FailedBanks.build/FailedBanks-own-target-headers.hmap -I/Users/yogeshp/Documents/FailedBanks/build/FailedBanks.build/Debug-iphonesimulator/FailedBanks.build/FailedBanks-all-target-headers.hmap -iquote /Users/yogeshp/Documents/FailedBanks/build/FailedBanks.build/Debug-iphonesimulator/FailedBanks.build/FailedBanks-project-headers.hmap -F/Users/yogeshp/Documents/FailedBanks/build/Debug-iphonesimulator -I/Users/yogeshp/Documents/FailedBanks/build/Debug-iphonesimulator/include -I/Users/yogeshp/Documents/FailedBanks/build/FailedBanks.build/Debug-iphonesimulator/FailedBanks.build/DerivedSources/i386 -I/Users/yogeshp/Documents/FailedBanks/build/FailedBanks.build/Debug-iphonesimulator/FailedBanks.build/DerivedSources -include /var/folders/-L/-LmRBdszGU8UQDCRXGQcVU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/FailedBanks_Prefix-bfqemhpadioboacjebahwlrytlaz/FailedBanks_Prefix.pch -c /Users/yogeshp/Documents/FailedBanks/main.m -o /Users/yogeshp/Documents/FailedBanks/build/FailedBanks.build/Debug-iphonesimulator/FailedBanks.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/yogeshp/Documents/FailedBanks/Classes/FailedBanksDetailViewController.xib
+s335257153.229227
+e335257154.590074
+r1
+xCompileXIB
+x/Users/yogeshp/Documents/FailedBanks/Classes/FailedBanksDetailViewController.xib
+lSLF07#2@54"CompileXIB Classes/FailedBanksDetailViewController.xib335257153#335257154#0(0"0(0#0#80"/Users/yogeshp/Documents/FailedBanks/Classes/FailedBanksDetailViewController.xib8618928960#618"    cd /Users/yogeshp/Documents/FailedBanks    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/yogeshp/Documents/FailedBanks/build/Debug-iphonesimulator/FailedBanks.app/FailedBanksDetailViewController.nib /Users/yogeshp/Documents/FailedBanks/Classes/FailedBanksDetailViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/yogeshp/Documents/FailedBanks/MainWindow.xib
+s335257153.226428
+e335257153.933578
+r1
+xCompileXIB
+x/Users/yogeshp/Documents/FailedBanks/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib335257153#335257153#0(0"0(0#0#51"/Users/yogeshp/Documents/FailedBanks/MainWindow.xib8620634688#568"    cd /Users/yogeshp/Documents/FailedBanks    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/yogeshp/Documents/FailedBanks/build/Debug-iphonesimulator/FailedBanks.app/MainWindow.nib /Users/yogeshp/Documents/FailedBanks/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCpResource build/Debug-iphonesimulator/FailedBanks.app/banklist.sqlite3 banklist.sqlite3
+s335257153.227190
+e335257153.247850
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/FailedBanks.app/banklist.sqlite3
+xbanklist.sqlite3
+lSLF07#2@21"Copy banklist.sqlite3335257153#335257153#0(0"0(0#0#53"/Users/yogeshp/Documents/FailedBanks/banklist.sqlite38620012288#472"    cd /Users/yogeshp/Documents/FailedBanks    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/yogeshp/Documents/FailedBanks/banklist.sqlite3 /Users/yogeshp/Documents/FailedBanks/build/Debug-iphonesimulator/FailedBanks.app0#
+
+CCpResource build/Debug-iphonesimulator/FailedBanks.app/dbtest.sqlite dbtest.sqlite
+s335257153.934713
+e335257153.948723
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/FailedBanks.app/dbtest.sqlite
+xdbtest.sqlite
+lSLF07#2@18"Copy dbtest.sqlite335257153#335257153#0(0"0(0#0#50"/Users/yogeshp/Documents/FailedBanks/dbtest.sqlite8620085536#469"    cd /Users/yogeshp/Documents/FailedBanks    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/yogeshp/Documents/FailedBanks/dbtest.sqlite /Users/yogeshp/Documents/FailedBanks/build/Debug-iphonesimulator/FailedBanks.app0#
+
+CCpResource build/Debug-iphonesimulator/FailedBanks.app/dbtest_20.sqlite dbtest_20.sqlite
+s335185677.121325
+e335185677.172581
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/FailedBanks.app/dbtest_20.sqlite
+xdbtest_20.sqlite
+lSLF07#2@21"Copy dbtest_20.sqlite335185677#335185677#0(0"0(0#0#53"/Users/yogeshp/Documents/FailedBanks/dbtest_20.sqlite8603814912#472"    cd /Users/yogeshp/Documents/FailedBanks    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/yogeshp/Documents/FailedBanks/dbtest_20.sqlite /Users/yogeshp/Documents/FailedBanks/build/Debug-iphonesimulator/FailedBanks.app0#
+
+CCpResource build/Debug-iphonesimulator/FailedBanks.app/dbtest_20.sqlite3 dbtest_20.sqlite3
+s335257153.935592
+e335257153.948829
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/FailedBanks.app/dbtest_20.sqlite3
+xdbtest_20.sqlite3
+lSLF07#2@22"Copy dbtest_20.sqlite3335257153#335257153#0(0"0(0#0#54"/Users/yogeshp/Documents/FailedBanks/dbtest_20.sqlite38619581664#473"    cd /Users/yogeshp/Documents/FailedBanks    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/yogeshp/Documents/FailedBanks/dbtest_20.sqlite3 /Users/yogeshp/Documents/FailedBanks/build/Debug-iphonesimulator/FailedBanks.app0#
+
+CCpResource build/Debug-iphonesimulator/FailedBanks.app/dbtest_20110816162406.sqlite dbtest_20110816162406.sqlite
+r0
+
+CCpResource build/Debug-iphonesimulator/FailedBanks.app/demoDB.sqlite demoDB.sqlite
+s335257153.938338
+e335257153.948931
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/FailedBanks.app/demoDB.sqlite
+xdemoDB.sqlite
+lSLF07#2@18"Copy demoDB.sqlite335257153#335257153#0(0"0(0#0#50"/Users/yogeshp/Documents/FailedBanks/demoDB.sqlite8618764800#469"    cd /Users/yogeshp/Documents/FailedBanks    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/yogeshp/Documents/FailedBanks/demoDB.sqlite /Users/yogeshp/Documents/FailedBanks/build/Debug-iphonesimulator/FailedBanks.app0#
+
+CCpResource build/Debug-iphonesimulator/FailedBanks.app/demoDB.sqlite3 demoDB.sqlite3
+s335257153.943246
+e335257153.949036
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/FailedBanks.app/demoDB.sqlite3
+xdemoDB.sqlite3
+lSLF07#2@19"Copy demoDB.sqlite3335257153#335257153#0(0"0(0#0#51"/Users/yogeshp/Documents/FailedBanks/demoDB.sqlite38601776992#470"    cd /Users/yogeshp/Documents/FailedBanks    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/yogeshp/Documents/FailedBanks/demoDB.sqlite3 /Users/yogeshp/Documents/FailedBanks/build/Debug-iphonesimulator/FailedBanks.app0#
+
+CCpResource build/Debug-iphonesimulator/FailedBanks.app/new.sqlite new.sqlite
+s335257153.947599
+e335257153.952803
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/FailedBanks.app/new.sqlite
+xnew.sqlite
+lSLF07#2@15"Copy new.sqlite335257153#335257153#0(0"0(0#0#47"/Users/yogeshp/Documents/FailedBanks/new.sqlite8603977120#466"    cd /Users/yogeshp/Documents/FailedBanks    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/yogeshp/Documents/FailedBanks/new.sqlite /Users/yogeshp/Documents/FailedBanks/build/Debug-iphonesimulator/FailedBanks.app0#
+
+CCpResource build/Debug-iphonesimulator/FailedBanks.app/testDB testDB
+s335257153.933695
+e335257153.948610
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/FailedBanks.app/testDB
+xtestDB
+lSLF07#2@11"Copy testDB335257153#335257153#0(0"0(0#0#43"/Users/yogeshp/Documents/FailedBanks/testDB8620962304#462"    cd /Users/yogeshp/Documents/FailedBanks    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/yogeshp/Documents/FailedBanks/testDB /Users/yogeshp/Documents/FailedBanks/build/Debug-iphonesimulator/FailedBanks.app0#
+
+CGenerateDSYMFile /Users/yogeshp/Documents/FailedBanks/build/Debug-iphonesimulator/FailedBanks.app.dSYM /Users/yogeshp/Documents/FailedBanks/build/Debug-iphonesimulator/FailedBanks.app/FailedBanks
+s335257235.106866
+e335257235.139881
+r1
+xGenerateDSYMFile
+x/Users/yogeshp/Documents/FailedBanks/build/Debug-iphonesimulator/FailedBanks.app.dSYM
+x/Users/yogeshp/Documents/FailedBanks/build/Debug-iphonesimulator/FailedBanks.app/FailedBanks
+lSLF07#2@121"GenerateDSYMFile build/Debug-iphonesimulator/FailedBanks.app.dSYM build/Debug-iphonesimulator/FailedBanks.app/FailedBanks335257235#335257235#0(0"0(0#0#92"/Users/yogeshp/Documents/FailedBanks/build/Debug-iphonesimulator/FailedBanks.app/FailedBanks8606051904#389"    cd /Users/yogeshp/Documents/FailedBanks    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/yogeshp/Documents/FailedBanks/build/Debug-iphonesimulator/FailedBanks.app/FailedBanks -o /Users/yogeshp/Documents/FailedBanks/build/Debug-iphonesimulator/FailedBanks.app.dSYM0#
+
+CLd /Users/yogeshp/Documents/FailedBanks/build/Debug-iphonesimulator/FailedBanks.app/FailedBanks normal i386
+s335257235.038084
+e335257235.106757
+r1
+xLd
+x/Users/yogeshp/Documents/FailedBanks/build/Debug-iphonesimulator/FailedBanks.app/FailedBanks
+xnormal
+xi386
+lSLF07#2@97"Link /Users/yogeshp/Documents/FailedBanks/build/Debug-iphonesimulator/FailedBanks.app/FailedBanks335257235#335257235#0(0"0(0#0#0"8619063488#920"    cd /Users/yogeshp/Documents/FailedBanks    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -L/Users/yogeshp/Documents/FailedBanks/build/Debug-iphonesimulator -F/Users/yogeshp/Documents/FailedBanks/build/Debug-iphonesimulator -filelist /Users/yogeshp/Documents/FailedBanks/build/FailedBanks.build/Debug-iphonesimulator/FailedBanks.build/Objects-normal/i386/FailedBanks.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -lsqlite3 -o /Users/yogeshp/Documents/FailedBanks/build/Debug-iphonesimulator/FailedBanks.app/FailedBanks0#
+
+CProcessInfoPlistFile /Users/yogeshp/Documents/FailedBanks/build/Debug-iphonesimulator/FailedBanks.app/Info.plist FailedBanks-Info.plist
+s335257153.200756
+e335257153.226339
+r1
+xProcessInfoPlistFile
+x/Users/yogeshp/Documents/FailedBanks/build/Debug-iphonesimulator/FailedBanks.app/Info.plist
+xFailedBanks-Info.plist
+lSLF07#2@30"Process FailedBanks-Info.plist335257153#335257153#0(0"0(0#0#59"/Users/yogeshp/Documents/FailedBanks/FailedBanks-Info.plist8602061120#485"    cd /Users/yogeshp/Documents/FailedBanks    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility FailedBanks-Info.plist -genpkginfo /Users/yogeshp/Documents/FailedBanks/build/Debug-iphonesimulator/FailedBanks.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/yogeshp/Documents/FailedBanks/build/Debug-iphonesimulator/FailedBanks.app/Info.plist0#
+
+CProcessPCH /var/folders/-L/-LmRBdszGU8UQDCRXGQcVU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/FailedBanks_Prefix-bfqemhpadioboacjebahwlrytlaz/FailedBanks_Prefix.pch.gch FailedBanks_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s335257154.590222
+e335257155.445840
+r1
+xProcessPCH
+x/var/folders/-L/-LmRBdszGU8UQDCRXGQcVU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/FailedBanks_Prefix-bfqemhpadioboacjebahwlrytlaz/FailedBanks_Prefix.pch.gch
+xFailedBanks_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@33"Precompile FailedBanks_Prefix.pch335257154#335257155#0(0"0(0#0#59"/Users/yogeshp/Documents/FailedBanks/FailedBanks_Prefix.pch8622342272#1862"    cd /Users/yogeshp/Documents/FailedBanks    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/yogeshp/Documents/FailedBanks/build/FailedBanks.build/Debug-iphonesimulator/FailedBanks.build/FailedBanks-generated-files.hmap -I/Users/yogeshp/Documents/FailedBanks/build/FailedBanks.build/Debug-iphonesimulator/FailedBanks.build/FailedBanks-own-target-headers.hmap -I/Users/yogeshp/Documents/FailedBanks/build/FailedBanks.build/Debug-iphonesimulator/FailedBanks.build/FailedBanks-all-target-headers.hmap -iquote /Users/yogeshp/Documents/FailedBanks/build/FailedBanks.build/Debug-iphonesimulator/FailedBanks.build/FailedBanks-project-headers.hmap -F/Users/yogeshp/Documents/FailedBanks/build/Debug-iphonesimulator -I/Users/yogeshp/Documents/FailedBanks/build/Debug-iphonesimulator/include -I/Users/yogeshp/Documents/FailedBanks/build/FailedBanks.build/Debug-iphonesimulator/FailedBanks.build/DerivedSources/i386 -I/Users/yogeshp/Documents/FailedBanks/build/FailedBanks.build/Debug-iphonesimulator/FailedBanks.build/DerivedSources -c /Users/yogeshp/Documents/FailedBanks/FailedBanks_Prefix.pch -o /var/folders/-L/-LmRBdszGU8UQDCRXGQcVU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/FailedBanks_Prefix-bfqemhpadioboacjebahwlrytlaz/FailedBanks_Prefix.pch.gch0#
+
+CTouch /Users/yogeshp/Documents/FailedBanks/build/Debug-iphonesimulator/FailedBanks.app
+s335257235.140058
+e335257235.174972
+r1
+xTouch
+x/Users/yogeshp/Documents/FailedBanks/build/Debug-iphonesimulator/FailedBanks.app
+lSLF07#2@86"Touch /Users/yogeshp/Documents/FailedBanks/build/Debug-iphonesimulator/FailedBanks.app335257235#335257235#0(0"0(0#0#0"8602156256#278"    cd /Users/yogeshp/Documents/FailedBanks    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/yogeshp/Documents/FailedBanks/build/Debug-iphonesimulator/FailedBanks.app0#
+
